@@ -1,0 +1,60 @@
+.NavMain {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto; /* Change to auto to accommodate titles */
+  z-index: 100;
+  display: flex;
+  flex-direction: column; /* Stack AllNav and titles vertically */
+
+  padding-bottom: 60px;
+  background-color: aqua;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.AllNav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+ 
+}
+
+.Title, .Title2 {
+  margin-top:5px;
+  padding: 10px; /* Added left and right padding */
+}
+.title2{
+  display:flex;
+  flex-direction:column;
+}
+
+
+h2 {
+  margin: 0; /* Remove top margin for better spacing */
+}
+
+/* Hover effects for navigation items */
+.AllNav a:hover {
+  color: darkblue; /* Example hover color */
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .NavMain {
+      flex-direction: column;
+      height: auto; /* Ensure height is auto for mobile */
+  }
+
+  .AllNav {
+      flex-direction: column;
+      padding-left: 0;
+  }
+
+  .Title, .Title2 {
+      padding: 5px; /* Adjust padding for mobile */
+  }
+}

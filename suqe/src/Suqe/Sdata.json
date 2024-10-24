@@ -1,0 +1,104 @@
+{
+  "products": [
+      {
+          "id": 1,
+          "name": "Habesha Dress",
+          "description": "Habesha Kemis/ሐበሻ ቀሚ.",
+          "sellerId": 101,
+          "Susername": "habesha_seller1",
+          "imageUrl": "https://i.pinimg.com/564x/dc/59/f3/dc59f30813334bcd2f90f325a34a5e1c.jpg",
+          "price": 150,
+          "amount": 5
+      },
+      {
+          "id": 2,
+          "name": "Habesha Dress",
+          "description": "Habesha Men/የወንድ ሐበሻ ልብስ",
+          "imageUrl": "https://i.pinimg.com/originals/2a/10/1d/2a101d519811cc092ca35c9b1599a868.jpg",
+          "sellerId": 102,
+          "Susername": "habesha_seller2",
+          "price": 120,
+          "amount": 3
+      },
+      {
+          "id": 3,
+          "name": "HP PC",
+          "description": "Computer For Sell",
+          "imageUrl": "https://i.ytimg.com/vi/XQBu50vXvvE/maxresdefault.jpg",
+          "sellerId": 103,
+          "Susername": "tech_guru",
+          "price": 700,
+          "amount": 2
+      },
+      {
+          "id": 4,
+          "name": "Product 4",
+          "description": "This is the description for product 4.",
+          "imageUrl": "https://i.pinimg.com/564x/dc/59/f3/dc59f30813334bcd2f90f325a34a5e1c.jpg",
+          "sellerId": 104,
+          "Susername": "generic_seller",
+          "price": 50,
+          "amount": 10
+      },
+      {
+          "id": 5,
+          "name": "Product 5",
+          "description": "This is the description for product 5.",
+          "imageUrl": "https://via.placeholder.com/100",
+          "sellerId": 105,
+          "Susername": "another_seller",
+          "price": 30,
+          "amount": 15
+      },
+      {
+          "id": 6,
+          "name": "Product 6",
+          "description": "This is the description for product 6.",
+          "imageUrl": "https://via.placeholder.com/100",
+          "sellerId": 106,
+          "Susername": "seller_six",
+          "price": 25,
+          "amount": 20
+      },
+      {
+          "id": 7,
+          "name": "Product 7",
+          "description": "This is the description for product 7.",
+          "imageUrl": "https://via.placeholder.com/100",
+          "sellerId": 107,
+          "Susername": "seller_seven",
+          "price": 40,
+          "amount": 12
+      },
+      {
+          "id": 8,
+          "name": "Product 8",
+          "description": "This is the description for product 8.",
+          "imageUrl": "https://via.placeholder.com/100",
+          "sellerId": 108,
+          "Susername": "seller_eight",
+          "price": 60,
+          "amount": 8
+      },
+      {
+          "id": 9,
+          "name": "Product 9",
+          "description": "This is the description for product 9.",
+          "imageUrl": "https://via.placeholder.com/100",
+          "sellerId": 109,
+          "Susername": "seller_nine",
+          "price": 70,
+          "amount": 5
+      },
+      {
+          "id": 10,
+          "name": "Product 10",
+          "description": "This is the description for product 10.",
+          "imageUrl": "https://via.placeholder.com/100",
+          "sellerId": 110,
+          "Susername": "seller_ten",
+          "price": 90,
+          "amount": 3
+      }
+  ]
+}
