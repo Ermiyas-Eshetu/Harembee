@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01a0ae79.css",
+    "main.js": "/static/js/main.44ed8a41.js",
+    "static/js/453.4aaaf1bb.chunk.js": "/static/js/453.4aaaf1bb.chunk.js",
+    "static/media/shopr.png": "/static/media/shopr.53b611d5a8e40b80743b.png",
+    "static/media/suqelogo.png": "/static/media/suqelogo.d5c7382d111a5fc4012a.png",
+    "static/media/Inbox Empty.png": "/static/media/Inbox Empty.8f37eba2bf2983b23cfc.png",
+    "index.html": "/index.html",
+    "main.01a0ae79.css.map": "/static/css/main.01a0ae79.css.map",
+    "main.44ed8a41.js.map": "/static/js/main.44ed8a41.js.map",
+    "453.4aaaf1bb.chunk.js.map": "/static/js/453.4aaaf1bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01a0ae79.css",
+    "static/js/main.44ed8a41.js"
+  ]
+}
