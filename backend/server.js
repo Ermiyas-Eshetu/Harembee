@@ -12,21 +12,22 @@ const bot = new Telegraf(process.env.BOT_TOKEN || "8127476321:AAEZRnXRDTduVYvHPJ
 let users = [];
 
 // /start command
-bot.start((ctx) => {
+const web_link = "https://chic-flan-4d07c8.netlify.app";
+
+bot.start((ctx) =>{
   const userId = ctx.message.from.id;
   const username = ctx.message.from.username || "No username";
-
   // Add the user to the list if not already added
   if (!users.some((user) => user.id === userId)) {
     users.push({ id: userId, username });
   }
-
-  ctx.reply(`Welcome, @${username} (ID: ${userId})! I am your bot. Type /help for commands.`);
-  ctx.reply("Click the button below to open the web app:", Markup.inlineKeyboard([
-    Markup.button.url("Open Web App", "https://chic-flan-4d07c8.netlify.app")
-  ]));
+  ctx.reply(`Welcome, @${username} (ID: ${userId})! To Online Suqe ሱቄ in Ethiopia Like Link Merkato በዚህ መሸጥ መግዛት ይቻላል። Type /help for commands.`);
+  ctx.reply("Welcome :)))))", {
+    reply_markup: {
+      keyboard: [[{ text: "web app", web_app: { url: web_link } }]],
+    },
+  })
 });
-
 // /help command
 bot.command("help", (ctx) => {
   ctx.reply(
@@ -53,13 +54,10 @@ bot.command("open_web", (ctx) => {
     Markup.button.url("Open Web App", "https://chic-flan-4d07c8.netlify.app")
   ]));
 });
-
-// Handles the 'hello' keyword
-bot.hears("hello", (ctx) => {
-  const userId = ctx.message.from.id;
-  const username = ctx.message.from.username || "No username";
-
-  ctx.reply(`Hello, @${username} (ID: ${userId})!`);
+//The list OF Users
+app.get("/users", (req, res) => {
+  res.json({users}); 
+  
 });
 
 // Handling all other text messages

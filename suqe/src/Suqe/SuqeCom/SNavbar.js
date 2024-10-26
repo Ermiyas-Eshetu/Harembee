@@ -5,7 +5,6 @@ import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
-import logo from '../../asset/suqelogo.png';
 import { useNavigate } from 'react-router-dom';
 import Avatar from '@mui/material/Avatar';
 
@@ -62,7 +61,7 @@ function CustomizedInputBase() {
   return (
     <Paper
       component="form"
-      sx={{ p: '2px 2px', display: 'flex', alignItems: 'center', width: 340 }}
+      sx={{ p: '2px 2px', display: 'flex', alignItems: 'center', width: 380 }}
     >
 
       <InputBase

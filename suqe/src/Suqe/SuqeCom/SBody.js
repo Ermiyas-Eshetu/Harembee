@@ -3,6 +3,12 @@ import SCard from "./SCard";
 import data from "../Sdata.json";
 import { useNavigate } from 'react-router-dom';
 
+import CustomCard from './CustomCard';
+import cardsData from './cardData.json';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 function SBody() {
   const handleAction = (productName) => {
     console.log(`${productName} action triggered!`);
@@ -19,7 +25,23 @@ function SBody() {
         <div className="btncon">
           <button onClick={handleChange} className="btn2">Open Shop / ሱቄን ልክፍት</button>
         </div>
-        {data.products.map((product) => (
+
+        <div style={{ display: "flex", flexWrap: "wrap" }}>
+          <Swiper
+            spaceBetween={1}
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+            style={{ width: '400px', height: 'auto', marginTop: '15px' }}
+          >
+            {cardsData.map((card, index) => (
+              <SwiperSlide key={index} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <CustomCard title={card.title} content={card.content} imageurl={card.imageUrl}/>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
+        {data.product.map((product) => (
           <SCard
             key={product.id}
             title={product.name}

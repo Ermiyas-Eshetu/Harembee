@@ -59,46 +59,7 @@
           "Susername": "seller_six",
           "price": 25,
           "amount": 20
-      },
-      {
-          "id": 7,
-          "name": "Product 7",
-          "description": "This is the description for product 7.",
-          "imageUrl": "https://via.placeholder.com/100",
-          "sellerId": 107,
-          "Susername": "seller_seven",
-          "price": 40,
-          "amount": 12
-      },
-      {
-          "id": 8,
-          "name": "Product 8",
-          "description": "This is the description for product 8.",
-          "imageUrl": "https://via.placeholder.com/100",
-          "sellerId": 108,
-          "Susername": "seller_eight",
-          "price": 60,
-          "amount": 8
-      },
-      {
-          "id": 9,
-          "name": "Product 9",
-          "description": "This is the description for product 9.",
-          "imageUrl": "https://via.placeholder.com/100",
-          "sellerId": 109,
-          "Susername": "seller_nine",
-          "price": 70,
-          "amount": 5
-      },
-      {
-          "id": 10,
-          "name": "Product 10",
-          "description": "This is the description for product 10.",
-          "imageUrl": "https://via.placeholder.com/100",
-          "sellerId": 110,
-          "Susername": "seller_ten",
-          "price": 90,
-          "amount": 3
       }
+      
   ]
 }

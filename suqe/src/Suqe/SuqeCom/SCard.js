@@ -3,6 +3,7 @@ import { Card, CardContent, Typography, CardActions, CardMedia, IconButton, Butt
 import TurnedInNotOutlinedIcon from '@mui/icons-material/TurnedInNotOutlined'; // Import the Save icon
 import data from '../Sdata.json'; // Import your JSON data
 
+
 // SCard Component
 function SCard({ title, description, imageUrl, onAction, onSave,amount,Susername,price }) {
   const [openLinkModal, setOpenLinkModal] = useState(false);
@@ -87,17 +88,17 @@ function LinkProduct({ open, onClose }) {
     console.log('Tags Submitted: ', tags);
     onClose(); // Close the modal after submitting
   };
-
-  return (
+ let productid = 'Ermiyas'
+  return ( 
     <Dialog open={open} onClose={onClose}>
       <DialogTitle>Link Product</DialogTitle>
       <DialogContent>
         <TextField
           disabled="true"
           margin="dense"
-          label="Tags (comma separated)"
+        
           fullWidth
-          value={tags}
+          value={productid}
           onChange={(e) => setTags(e.target.value)}
           sx={{ marginBottom: '15px' }}
         />
