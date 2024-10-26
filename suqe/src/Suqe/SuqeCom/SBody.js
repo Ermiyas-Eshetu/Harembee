@@ -41,7 +41,7 @@ function SBody() {
           </Swiper>
         </div>
 
-        {data.product.map((product) => (
+        {data.products.map((product) => (
           <SCard
             key={product.id}
             title={product.name}
